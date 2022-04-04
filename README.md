@@ -6,7 +6,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ![](/frontend%20mentor%20stats-preview.jpg)
 
-Link:
+Link: https://lino-otm.github.io/Stats-preview-card-component/
 
 ### Built with:
 
