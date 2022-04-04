@@ -48,6 +48,10 @@
 }
 
 @media (max-width: 915px) {
+  .stats-container {
+    min-height: 786px;
+  }
+
   .stats-container__mobile-image {
     width: 100%;
     opacity: 0.7;
