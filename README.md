@@ -13,7 +13,7 @@ Link:
 - HTML
 - CSS
 - SASS
-- Media Querries
+- Media Queries
 - Grid & Flexbox
 
 - Also used normalize.css library to reset the styles.
