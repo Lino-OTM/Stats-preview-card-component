@@ -1,4 +1,8 @@
 @media (min-width: 916px) {
+
+  body {
+    height: 100vh;
+  }
   .stats-container {
     width: 1140px;
     display: grid;
@@ -48,9 +52,6 @@
 }
 
 @media (max-width: 915px) {
-  .stats-container {
-    min-height: 786px;
-  }
 
   .stats-container__mobile-image {
     width: 100%;
