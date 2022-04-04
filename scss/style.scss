@@ -1,0 +1,72 @@
+@use "colors";
+
+body {
+  background-color: colors.$mainBackground;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.stats-container {
+  width: 335px;
+  background-color: colors.$cardBackground;
+  overflow: hidden;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+
+  .stats-container__image-container {
+    margin: 0;
+    background-color: colors.$accent;
+  }
+
+  .stats-container__title {
+    color: colors.$mainHeading-andStats;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+
+    span {
+      color: colors.$accent;
+    }
+  }
+
+  .stats-container__text {
+    color: colors.$mainParagraph;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-bottom: 35px;
+    line-height: 25px;
+  }
+
+  .stats-container__details-container {
+    margin-bottom: 30px;
+
+    .stats-container__available-number {
+      display: block;
+      color: colors.$mainHeading-andStats;
+      font-family: "Inter", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .stats-container__item-description {
+      color: colors.$statHeadings;
+      text-transform: uppercase;
+      font-family: "Lexend Deca", sans-serif;
+      font-weight: 400;
+      font-size: 0.8rem;
+      margin: 0;
+    }
+    .stats-container__available-number--upper {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.attribution { font-size: 11px; text-align: center; color: #fff }
+.attribution a { color: colors.$accent; }
